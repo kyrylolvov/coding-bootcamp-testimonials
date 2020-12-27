@@ -120,7 +120,7 @@ img {
 @media (max-width: 768px) {
   body {
     background-position: center 8%, bottom left;
-    background-size: 600px, 80%;
+    background-size: 580px, 80%;
     width: 100vw;
     height: 120vh;
   }
@@ -146,11 +146,118 @@ img {
   }
   .name-position {
     justify-content: center;
+    font-size: 17px;
   }
   .button {
     padding: 12px 14px;
   }
   .slider-scroll {
     margin: -20px 190px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    background-position: center 8%, bottom left;
+    background-size: 490px, 80%;
+    width: 100vw;
+    height: 120vh;
+  }
+  main {
+    flex-direction: column-reverse;
+    margin-top: -110px;
+  }
+  .img {
+    width: 400px;
+  }
+  .slider {
+    margin: 0;
+    margin-bottom: 70px;
+  }
+  .button {
+    padding: 12px 14px;
+  }
+  .slider-scroll {
+    margin: -20px 160px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    background-position: center 8%, bottom left;
+    background-size: 410px, 80%;
+    width: 100vw;
+    height: 120vh;
+  }
+  main {
+    flex-direction: column-reverse;
+    margin-top: -150px;
+  }
+  .img {
+    width: 370px;
+  }
+  .slider {
+    margin: 0;
+    margin-bottom: 90px;
+  }
+  .button {
+    padding: 12px 14px;
+  }
+  .slider-scroll {
+    margin: -20px 160px;
+  }
+  .main-text {
+    width: 85vw;
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    background-position: center 8%, bottom left;
+    background-size: 365px, 80%;
+    width: 100vw;
+    height: 120vh;
+  }
+  main {
+    flex-direction: column-reverse;
+    margin-top: -150px;
+  }
+  .img {
+    width: 330px;
+  }
+  .button {
+    padding: 10px 12px;
+  }
+  .slider-scroll {
+    margin: -20px 30vw;
+  }
+  .text::before {
+    margin: -50px 50vw;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background-position: center 8%, bottom left;
+    background-size: 310px, 80%;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  main {
+    flex-direction: column-reverse;
+    margin-top: -150px;
+  }
+  .img {
+    width: 290px;
+  }
+  .button {
+    padding: 9px 11px;
+  }
+  .slider {
+    margin-bottom: 50px;
+  }
+  .main-text {
+    font-size: 16px;
+  }
+  .name-position {
+    font-size: 15px;
   }
 }
